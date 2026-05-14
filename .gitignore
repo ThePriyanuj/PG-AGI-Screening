@@ -1,11 +1,25 @@
+# Local files
 .env
 **/__pycache__/
 **/*.pyc
 **/chroma_data/
 **/*.db
 pgagi_knowledge_base.json
-.vercel/
+
+# Web & Node
 node_modules/
 .next/
 dist/
 build/
+.vercel/
+
+# VS Code & IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python tools
+.ruff_cache/
+.pypirc
+tempCodeRunnerFile.py
